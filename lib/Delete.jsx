@@ -1,7 +1,7 @@
 import React from 'react';
 //import history from './history';
 
-export default class StreamDelete extends React.Component {
+export class StreamDelete extends React.Component {
 
   render() {
     return (
