@@ -2,7 +2,7 @@ import React from 'react';
 //import { connect } from 'react-redux';
 import flv from 'flv.js';
 
-export default class StreamShow extends React.Component {
+export class StreamShow extends React.Component {
   constructor(props) {
     super(props);
     this.videoRef = React.createRef();

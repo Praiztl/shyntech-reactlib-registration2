@@ -1,8 +1,8 @@
 import React from 'react';
-import Show from './Show';
+import {Show} from './Show';
 
 
-class Create extends Show {
+export class Create extends Show {
 
   render() {
     const html=(
@@ -35,4 +35,3 @@ class Create extends Show {
   }
 }
 
-export default Create;

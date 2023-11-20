@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import { Router, Route, Switch } from 'react-router-dom';
-import Show from './Show';
+import {Show} from './Show';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faTrashCan, faFilePen, faFile} from "@fortawesome/free-solid-svg-icons";
 
 library.add(faTrashCan, faFilePen, faFile);
 
-class Navigator extends React.Component{
+export class Options extends React.Component{
 	constructor(props){
 		super(props);
 	}
@@ -48,4 +48,3 @@ class Navigator extends React.Component{
 	};
 }
 
-export default Navigator;

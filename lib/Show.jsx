@@ -3,7 +3,7 @@ import axios from 'axios';
 import ReactDOM from 'react-dom';
 import 'animate.css';
 
-class Show extends React.Component {
+export class Show extends React.Component {
   constructor(props) {
     super(props);
     //this.props={data:this.props.data}
@@ -66,6 +66,3 @@ class Show extends React.Component {
   }
 }
 
-
-
-export default Show;

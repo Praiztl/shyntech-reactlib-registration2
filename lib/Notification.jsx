@@ -3,7 +3,7 @@ import axios from 'axios';
 import ReactDOM from 'react-dom';
 import 'animate.css';
 
-class Notification extends React.Component {
+export class Notification extends React.Component {
   constructor(props) {
     super(props);
     this.state={data:this.props.data}
@@ -34,4 +34,4 @@ class Notification extends React.Component {
 
 
 
-export default Notification;
+

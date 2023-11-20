@@ -1,7 +1,7 @@
 import React from 'react';
 //import List from './List';
 
-class Form extends React.Component {
+export class Form extends React.Component {
 
   render() {
     return (
@@ -14,4 +14,3 @@ class Form extends React.Component {
   }
 }
 
-export default Form;

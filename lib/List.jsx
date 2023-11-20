@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import Options from './Options';
+import {Options} from './Options';
 import Notification from './Notification';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 
-class List extends React.Component {
+export class List extends React.Component {
   constructor(props){
     super(props);
     this.state={data:[], container:[]}
@@ -127,4 +127,4 @@ class List extends React.Component {
 }
 
 
-export default List;
+

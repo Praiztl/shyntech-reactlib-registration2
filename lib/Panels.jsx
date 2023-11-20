@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import axios from 'axios';
-import Notification from './Notification';
+import {Notification} from './Notification';
 
-export default class Form extends React.Component {
+export class Form extends React.Component {
 
   componentDidMount = async()=> {
     try{
